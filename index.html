@@ -23,34 +23,7 @@
     <!-- Modals; Edit with care -->
     <div id="img1" style="display:none;">
       <p>St. Louis Zoo</p>
-      
       <img src="Images/large/zoo.jpg">
-      
-       <h2>Make the forms better in  Style and Connect it to your email</h2>
-
-      <form action="//formspree.io/anishagrawal@wustl.edu" method="POST">
-        
-      <h2>Example Functional Form</h2>
-
-      <form action="//formspree.io/simonyost+01@gmail.com" method="POST">
-        
-        <div>
-          <label>name</label>
-          <input type="text" name="name" value="your name">
-        </div>
-        <div>
-          <label>email</label>
-          <input type="text" name="mail" value="your email">
-        </div>
-        <div>
-          <label>comment</label>
-          <input type="text" name="comment" value="your comment" size="50">
-        </div>
-        <div>
-          <input type="submit" value="Send">
-        </div>
-      </form>
-
     </div>
     
     <div id="img2" style="display:none;">
@@ -103,11 +76,12 @@
 
       <section class="gallery">
         <ol class="imageGallery">
-          <li><p>St. Louis Zoo: Enjoy an adventure every time you visit. Know a discovery will be made around each corner. You’re at the Saint Louis Zoo, a get-away destination that brings together more than 18,700* wild animals and 3,000,000 visitors each year.
+          <li><a href="#img1" rel="modal:open"><img src=Images/thumbnails/zoo.jpg></a>
+              <h2>St. Louis Zoo</h2>
+              <p>Enjoy an adventure every time you visit. Know a discovery will be made around each corner. You’re at the Saint Louis Zoo, a get-away destination that brings together more than 18,700* wild animals and 3,000,000 visitors each year.
                  Located on 90 acres in beautiful Forest Park, the Zoo is home to more than 560* species of animals, many of them rare and endangered. It is one of the few free zoos in the nation.</p>
                   </br>
-              <p>*Info provided by Stlzoo.org</p>
-            <a href="#img1" rel="modal:open"><img src=Images/thumbnails/zoo.jpg></a></li>
+              <p>*Info provided by Stlzoo.org</p></li>
           <li><a href="#img2" rel="modal:open"><img src=Images/thumbnails/CahokiaMounds.jpg></a></li>
           <li><a href="#img3" rel="modal:open"><img src=Images/thumbnails/bird.jpg></a></li>
           <li><a href="#img4" rel="modal:open"><img src=Images/thumbnails/busch.jpg></a></li>
@@ -162,5 +136,30 @@
         <script src="js/jquery.modal.min.js"></script>
 
     </div>
+    
+    <h2>Make the forms better in  Style and Connect it to your email</h2>
+
+      <form action="//formspree.io/anishagrawal@wustl.edu" method="POST">
+        
+      <h2>Example Functional Form</h2>
+
+      <form action="//formspree.io/simonyost+01@gmail.com" method="POST">
+        
+        <div>
+          <label>name</label>
+          <input type="text" name="name" value="your name">
+        </div>
+        <div>
+          <label>email</label>
+          <input type="text" name="mail" value="your email">
+        </div>
+        <div>
+          <label>comment</label>
+          <input type="text" name="comment" value="your comment" size="50">
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
   </body>
 </html>
